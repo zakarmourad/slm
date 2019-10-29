@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<style type="text/css">
+		
+.normal{
+	background-color:yellow;
+}
+div{
+background-color:blue;
+
+height:10000px;
+width: 10000px;
+}
+
+	</style>
+
+
+</head>
+
+<body>
+
+
+<div class="normal">
+</div>
+<script type="text/javascript">
+	const elmt = document.querySelector(".normal");
+	function eventclbk(){
+		console.log("clicked");
+		elmt.classList.toggle("normal");
+	}
+	elmt.onclick=eventclbk;
+</script>
+
+</body>
+</html>
